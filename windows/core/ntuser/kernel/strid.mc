@@ -873,49 +873,49 @@ Language=English
 MessageID=212 SymbolicName=STR_DTBS_EVALUATION
 Severity=Success
 Language=English
-Evaluation copy.
+An example is an example.
 .
 
 MessageID=213 SymbolicName=STR_TESTINGONLY
 Severity=Success
 Language=English
-For testing purposes only.
+Because he doesn't try anything.
 .
 
 MessageID=214 SymbolicName=STR_DTBS_PRODUCTPRO
 Severity=Success
 Language=English
-XP Professional
+KSP Thank you
 .
 
 MessageID=215 SymbolicName=STR_DTBS_PRODUCTPER
 Severity=Success
 Language=English
-XP Home Edition
+KSP Get out of the house
 .
 
 MessageID=216 SymbolicName=STR_DTBS_PRODUCTSRV
 Severity=Success
 Language=English
-Server 2003, Standard Edition
+recorded in 2003, General permissions
 .
 
 MessageID=217 SymbolicName=STR_DTBS_PRODUCTADV
 Severity=Success
 Language=English
-Server 2003, Enterprise Edition
+recorded in 2003, Change type
 .
 
 MessageID=218 SymbolicName=STR_DTBS_PRODUCTDTC
 Severity=Success
 Language=English
-Server 2003, Datacenter Edition
+recorded in 2003, Publication Center Information
 .
 
 MessageID=219 SymbolicName=STR_DTBS_PRODUCTWKS64
 Severity=Success
 Language=English
-XP 64-Bit Edition Version 2003
+KSP 64-bit format
 .
 
 MessageID=220 SymbolicName=STR_EXTENDEDSOUNDS
@@ -933,37 +933,37 @@ Autorun
 MessageID=222 SymbolicName=STR_DTBS_PRODUCTEMB
 Severity=Success
 Language=English
-XP Embedded
+KSP Embedded
 .
 
 MessageID=223 SymbolicName=STR_DTBS_PRODUCTBLA
 Severity=Success
 Language=English
-Server 2003, Web Edition
+recorded in 2003, Account management
 .
 
 MessageID=224 SymbolicName=STR_DTBS_PRODUCTSRV64
 Severity=Success
 Language=English
-Server 2003, Standard Edition
+recorded in 2003, General permissions
 .
 
 MessageID=225 SymbolicName=STR_DTBS_PRODUCTADV64
 Severity=Success
 Language=English
-Server 2003, Enterprise Edition
+recorded in 2003, Change type
 .
 
 MessageID=226 SymbolicName=STR_DTBS_PRODUCTDTC64
 Severity=Success
 Language=English
-Server 2003, Datacenter Edition
+recorded in 2003, Publication Center Information
 .
 
 MessageID=227 SymbolicName=STR_DTBS_PRODUCTSBS
 Severity=Success
 Language=English
-Server 2003 for Small Business Server
+The server for small businesses 2003..
 .
 
 MessageID=229 SymbolicName=STR_SCLOSE
