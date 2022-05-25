@@ -57,9 +57,9 @@ IDD_STEPS1 DIALOGEX DISCARDABLE  6, 17, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Setup is now ready to guide you through installation of Windows Networking. If you want to review or change any settings before continuing, click Back.",
+    LTEXT           "You can create, delete, or modify the Windows Connection Settings menu before you begin.",
                     -1,18,14,268,23
-    LTEXT           "To begin installing Windows Networking, click Next.",
+    LTEXT           "Click below to start the process.",
                     -1,18,40,242,13
     CONTROL         "",IDC_LIST1,"$$$ActionItemList",0x0,18,54,195,63
 END
@@ -68,15 +68,15 @@ IDD_PREPARING_ASR DIALOGEX DISCARDABLE  6, 17, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Please wait while Setup:",IDC_PREPARETEXT,55,7,252,8
+    LTEXT           "What can you do?",IDC_PREPARETEXT,55,7,252,8
     CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,21,
                     94,275,11
     ICON            IDI_SETUP,IDC_STATIC,21,7,20,20
-    LTEXT           "Detects and installs devices",IDC_ASR_PNP_TXT,
+    LTEXT           "Now look at your hand.",IDC_ASR_PNP_TXT,
                     65,27,169,8
-    LTEXT           "Executes recovery applications",IDC_ASR_EXTERN_TXT,
+    LTEXT           "Follow the treatment plan.",IDC_ASR_EXTERN_TXT,
                     65,39,169,8
-    LTEXT           "Removes any temporary files used",IDC_REMOVE_TXT,
+    LTEXT           "Save time and resources",IDC_REMOVE_TXT,
                     65,51,169,8
     CONTROL         IDI_FLPDRIVE,IDC_ASR_PNP_BMP,"Static",SS_BITMAP |
                     NOT WS_VISIBLE,55,28,6,5
@@ -90,18 +90,18 @@ IDD_NAMEORG DIALOGEX DISCARDABLE  6, 18, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Type your full name and the name of your company or organization.",
+    LTEXT           "Company Name: Enter the company name",
                     IDC_STATIC,53,7,242,8,NOT WS_GROUP
-    LTEXT           "Na&me:",201,54,37,22,8
+    LTEXT           "First pa&rt of the title:",201,54,37,22,8
     EDITTEXT        IDT_NAME,132,35,163,14,ES_AUTOHSCROLL
-    LTEXT           "&Organization:",203,54,57,44,8,NOT WS_GROUP
+    LTEXT           "&Himlar -",203,54,57,44,8,NOT WS_GROUP
     EDITTEXT        IDT_ORGANIZATION,132,55,163,14,ES_AUTOHSCROLL
     ICON            IDI_NAME,IDC_STATIC,21,7,20,20
 END
 
 IDD_BILLBOARD1 DIALOGEX DISCARDABLE  6, 18, 250, 57
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
-CAPTION "Windows Setup"
+CAPTION "open the window"
 FONT 8, "MS Shell Dlg"
 BEGIN
     LTEXT           "Text",IDT_STATIC_1,34,8,206,30,SS_NOPREFIX
@@ -110,17 +110,17 @@ END
 
 IDD_DONE_SUCCESS DIALOGEX DISCARDABLE  6, 18, 245, 116
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
-CAPTION "Windows Setup"
+CAPTION "open the window"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Windows Setup has completed successfully.",
+    LTEXT           "Windows is installed",
                     IDT_STATIC_1,49,12,176,16,NOT WS_GROUP
-    PUSHBUTTON      "Restart Now",IDOK,94,90,50,14
+    PUSHBUTTON      "It doesn't matter.",IDOK,94,90,50,14
     CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER |
                     0x1,20,71,205,8
     GROUPBOX        "",IDC_STATIC,7,3,231,106
     ICON            IDI_SETUP,IDC_STATIC,20,12,20,20
-    LTEXT           "Setup needs to restart your computer to continue.  Your computer will automatically restart in 15 seconds or when you click Restart Now.",
+    LTEXT           "Restart the computer you want to reinstall. Click now Run: The computer will start automatically after 15 seconds.",
                     IDT_STATIC_2,49,38,176,24,NOT WS_GROUP
 END
 
@@ -129,9 +129,9 @@ STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELL
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,22,7,107,90
-    LTEXT           "The 25-character Product Key appears on the yellow sticker on the back of your Windows CD folder.\r\n\r\nType the Product Key below:",
+    LTEXT           "If nothing appears on the yellow screen after Windows 25 CD.\r\n\r\nEnter the number below.",
                     612,108,7,190,45
-    LTEXT           "&Product Key:",IDC_STATIC,22,85,42,8
+    LTEXT           "&Next:",IDC_STATIC,22,85,42,8
     EDITTEXT        IDT_EDIT_PID1,22,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
     EDITTEXT        IDT_EDIT_PID2,78,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
     EDITTEXT        IDT_EDIT_PID3,134,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
@@ -147,10 +147,10 @@ IDD_PID_OEM DIALOGEX DISCARDABLE  6, 18, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "The 25-character Product Key appears on the lower section of your Certificate of Authenticity.\r\n\r\nType the Product Key below:",
+    LTEXT           "Below the code is a twenty-five digit word.\r\n\r\nEnter the number below.",
                     IDC_STATIC,108,7,190,43
     CONTROL         105,IDC_STATIC,"Static",SS_BITMAP,22,7,107,94
-    LTEXT           "&Product Key:",IDC_STATIC,22,85,42,8
+    LTEXT           "&Next:",IDC_STATIC,22,85,42,8
     EDITTEXT        IDT_EDIT_PID1,22,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
     CTEXT           "-",IDC_STATIC,66,98,8,8
     EDITTEXT        IDT_EDIT_PID2,78,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
@@ -166,9 +166,9 @@ IDD_PID_SELECT DIALOGEX DISCARDABLE  6, 18, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Please see your License Agreement Administrator or System Administrator to obtain your 25-character Volume License product key.  For more information see your product packaging.\r\n\r\nType the Volume License Product Key below:",
+    LTEXT           "Ask your boss or company for 25 minutes\r\n\r\nThe product is sold under license.",
                     IDC_STATIC,22,7,276,43
-    LTEXT           "&Product Key:",IDC_STATIC,22,85,42,8
+    LTEXT           "&Next:",IDC_STATIC,22,85,42,8
     EDITTEXT        IDT_EDIT_PID1,22,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
     CTEXT           "-",IDC_STATIC,66,98,8,8
     EDITTEXT        IDT_EDIT_PID2,78,96,42,14,ES_UPPERCASE | ES_AUTOHSCROLL
@@ -184,65 +184,65 @@ IDD_OPTIONS DIALOGEX DISCARDABLE  0, 0, 304, 140
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",-1,1,22,51,9
+    LTEXT           "&T.D.",-1,1,22,51,9
     LISTBOX         IDC_LIST1,1,32,166,80,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL |
                     WS_GROUP | WS_TABSTOP
-    LTEXT           "To add or remove a component, click the check box. A shaded box means that only part of the component will be installed. To see what's included in a component, click Details.",
+    LTEXT           "Add or remove comments. Room keys are very important. Click on the words to see what happened.",
                     -1,0,0,300,19
-    LTEXT           "Space needed by Setup:",IDT_STATIC_4,1,116,83,9
-    LTEXT           "Space available on disk:",IDT_STATIC_5,1,126,83,9
-    RTEXT           "0.0 MB",IDT_STATIC_1,117,116,36,8
-    RTEXT           "0.0 MB",IDT_STATIC_2,115,126,38,8
+    LTEXT           "He approached the window",IDT_STATIC_4,1,116,83,9
+    LTEXT           "Job",IDT_STATIC_5,1,126,83,9
+    RTEXT           "Million tons",IDT_STATIC_1,117,116,36,8
+    RTEXT           "Million tons",IDT_STATIC_2,115,126,38,8
     LTEXT           "",IDT_STATIC_3,181,38,118,40,SS_NOPREFIX
-    PUSHBUTTON      "&Details...",IDB_BUTTON_2,248,93,50,14,WS_DISABLED
-    GROUPBOX        "Description",IDC_GROUP1,175,28,128,84
-    PUSHBUTTON      "&Reset",IDB_BUTTON_1,248,117,50,14
+    PUSHBUTTON      "&Human beings...",IDB_BUTTON_2,248,93,50,14,WS_DISABLED
+    GROUPBOX        "Download:",IDC_GROUP1,175,28,128,84
+    PUSHBUTTON      "&Dia",IDB_BUTTON_1,248,117,50,14
     LTEXT           "",IDT_INSTALLED,181,82,118,10
 END
 
 IDD_OPTIONS2 DIALOGEX DISCARDABLE  0, 0, 227, 215
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
-CAPTION "Windows Setup"
+CAPTION "Windows Settings"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",-1,7,34,51,9
+    LTEXT           "&They want it",-1,7,34,51,9
     LISTBOX         IDC_LIST1,7,44,213,61,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL |
                     WS_GROUP | WS_TABSTOP
-    LTEXT           "To add or remove a component, click the check box. A shaded box means that only part of the component will be installed. To see what's included in a component, click Details.",
+    LTEXT           "Click on this image to add or delete an article. Yes, this is an industrial park. Think of something new for this research.",
                     IDT_STATIC_6,7,7,213,28
-    LTEXT           "Space required:",IDT_STATIC_4,7,108,83,9
-    LTEXT           "Space available on disk:",IDT_STATIC_5,7,118,83,9
-    RTEXT           "0.0 MB",IDT_STATIC_1,145,108,56,8
-    RTEXT           "0.0 MB",IDT_STATIC_2,145,118,56,8
+    LTEXT           "Canada",IDT_STATIC_4,7,108,83,9
+    LTEXT           "Death card",IDT_STATIC_5,7,118,83,9
+    RTEXT           "0.0 min",IDT_STATIC_1,145,108,56,8
+    RTEXT           "0.0 min",IDT_STATIC_2,145,118,56,8
     LTEXT           "",IDT_STATIC_3,13,140,201,24,SS_NOPREFIX
-    GROUPBOX        "Description",IDC_GROUP1,7,129,212,60
-    PUSHBUTTON      "&Have Disk...",IDB_BUTTON_1,165,194,53,14
-    PUSHBUTTON      "&Details...",IDB_BUTTON_2,160,170,53,14,WS_DISABLED
+    GROUPBOX        "Strategies and challenges",IDC_GROUP1,7,129,212,60
+    PUSHBUTTON      "&I have a book...",IDB_BUTTON_1,165,194,53,14
+    PUSHBUTTON      "&I just bought it ...",IDB_BUTTON_2,160,170,53,14,WS_DISABLED
     LTEXT           "",IDT_INSTALLED,13,173,129,9
 END
 
 IDD_OPTIONS_DETAILS_SETUP DIALOGEX DISCARDABLE  0, 0, 316, 191
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
-CAPTION "Details"
+CAPTION "Players:"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",-1,7,38,165,9
+    LTEXT           "&Category:",-1,7,38,165,9
     LISTBOX         IDC_LIST1,7,48,166,91,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL |
                     WS_GROUP | WS_TABSTOP
-    DEFPUSHBUTTON   "OK",IDOK,202,172,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,259,172,50,14
-    GROUPBOX        "Description",-1,181,44,127,94
+    DEFPUSHBUTTON   "balma",IDOK,202,172,50,14
+    PUSHBUTTON      "They are confused.",IDCANCEL,259,172,50,14
+    GROUPBOX        "I understand",-1,181,44,127,94
     LTEXT           "",IDT_STATIC_3,188,55,112,48,SS_NOPREFIX
-    LTEXT           "To add or remove a component, click the check box. A shaded box means that only part of the component will be installed. To see what's included in a component, click Details.",
+    LTEXT           "Click "Size" in the "Colors" section. The wall of the house. Click the button to see the result.",
                     -1,7,8,288,23
-    LTEXT           "Space needed by Setup:",-1,7,144,83,9
-    LTEXT           "Space available on disk:",-1,7,154,83,9
-    RTEXT           "0.0 MB",IDT_STATIC_1,123,144,37,8
-    RTEXT           "0.0 MB",IDT_STATIC_2,123,154,37,8
-    PUSHBUTTON      "&Details...",IDB_BUTTON_2,253,119,50,14,WS_DISABLED |
+    LTEXT           "Harakat",-1,7,144,83,9
+    LTEXT           "Leaving the ground",-1,7,154,83,9
+    RTEXT           "0.0m is good",IDT_STATIC_1,123,144,37,8
+    RTEXT           "0.0m is good",IDT_STATIC_2,123,154,37,8
+    PUSHBUTTON      "&It's us ...",IDB_BUTTON_2,253,119,50,14,WS_DISABLED |
                     WS_GROUP
     CONTROL         "",IDT_STATIC,"Static",SS_BLACKRECT,5,166,303,1
     LTEXT           "",IDT_INSTALLED,188,106,112,10
@@ -250,75 +250,75 @@ END
 
 IDD_OPTIONS_DETAILS DIALOGEX DISCARDABLE  0, 0, 227, 218
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
-CAPTION "Details"
+CAPTION "More details"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",-1,7,34,51,9
+    LTEXT           "&User:",-1,7,34,51,9
     LISTBOX         IDC_LIST1,7,43,212,61,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL |
                     WS_GROUP | WS_TABSTOP
-    DEFPUSHBUTTON   "OK",IDOK,116,197,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,170,197,50,14
-    LTEXT           "To add or remove a component, click the check box. A shaded box means that only part of the component will be installed. To see what's included in a component, click Details.",
+    DEFPUSHBUTTON   "Relationships",IDOK,116,197,50,14
+    PUSHBUTTON      "Therefore:",IDCANCEL,170,197,50,14
+    LTEXT           "Add or subtract one. Upload photos only when needed. Click on the button below to watch TV.",
                     -1,7,7,212,28
-    LTEXT           "Space required:",-1,7,107,83,9
-    LTEXT           "Space available on disk:",-1,7,117,83,9
-    RTEXT           "0.0 MB",IDT_STATIC_1,145,107,56,8
-    RTEXT           "0.0 MB",IDT_STATIC_2,145,117,56,8
+    LTEXT           "dining room",-1,7,107,83,9
+    LTEXT           "Disk Management",-1,7,117,83,9
+    RTEXT           "0.0 m",IDT_STATIC_1,145,107,56,8
+    RTEXT           "0.0 m",IDT_STATIC_2,145,117,56,8
     LTEXT           "",IDT_STATIC_3,13,141,199,26,SS_NOPREFIX
-    GROUPBOX        "Description",-1,7,130,212,60
-    PUSHBUTTON      "&Details...",IDB_BUTTON_2,162,170,50,14,WS_DISABLED
+    GROUPBOX        "Media source:",-1,7,130,212,60
+    PUSHBUTTON      "&You know ...",IDB_BUTTON_2,162,170,50,14,WS_DISABLED
     LTEXT           "",IDT_INSTALLED,13,173,137,9
 END
 
 IDD_CPL_HAVEDISK DIALOGEX DISCARDABLE  5, 5, 227, 218
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
-CAPTION "Have Disk"
+CAPTION "Sell them"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",-1,7,34,51,9
+    LTEXT           "&Tupe",-1,7,34,51,9
     LISTBOX         IDC_LIST1,7,43,212,58,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL |
                     WS_GROUP | WS_TABSTOP
-    DEFPUSHBUTTON   "&Install",IDOK,116,197,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,170,197,50,14
-    LTEXT           "Click the box next to an item to add or remove a check mark. A check means you want the component  on your computer; no check mark means you don't want the component.",
+    DEFPUSHBUTTON   "&Marriage",IDOK,116,197,50,14
+    PUSHBUTTON      "It is amazing.",IDCANCEL,170,197,50,14
+    LTEXT           "Click the Add or Close button. For example, you need to download something to your computer. Have fun",
                     -1,7,7,212,28
-    LTEXT           "Space required:",-1,7,107,83,9
-    LTEXT           "Space available on disk:",-1,7,117,83,9
-    RTEXT           "0.0 MB",IDT_STATIC_1,145,107,56,8
-    RTEXT           "0.0 MB",IDT_STATIC_2,145,117,56,8
+    LTEXT           "if you want",-1,7,107,83,9
+    LTEXT           "There is free space on the hard drive.",-1,7,117,83,9
+    RTEXT           "0.0 Velvet TV screen",IDT_STATIC_1,145,107,56,8
+    RTEXT           "0.0 Velvet TV screen",IDT_STATIC_2,145,117,56,8
     LTEXT           "",IDT_STATIC_3,13,141,199,26,SS_NOPREFIX
-    GROUPBOX        "Description",-1,7,130,212,60
-    PUSHBUTTON      "&Details...",IDB_BUTTON_2,162,170,50,14,WS_DISABLED
+    GROUPBOX        "Stop and turn it off.",-1,7,130,212,60
+    PUSHBUTTON      "&I see ...",IDB_BUTTON_2,162,170,50,14,WS_DISABLED
     LTEXT           "",IDT_INSTALLED,13,173,137,9
 END
 
 IDD_VIEWLOG DIALOGEX DISCARDABLE  6, 18, 300, 200
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
-CAPTION "Dialog Title"
+CAPTION "meanings of words."
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL         "",IDT_RICHEDIT1,"RichEdit20A",WS_VSCROLL | WS_GROUP |
                     WS_TABSTOP | 0xd944,10,10,280,156
-    DEFPUSHBUTTON   "Close",IDOK,130,176,40,14,WS_GROUP
+    DEFPUSHBUTTON   "Section 1",IDOK,130,176,40,14,WS_GROUP
 END
 
 IDD_SELECTCLASS DIALOGEX DISCARDABLE  0, 0, 160, 133
 STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION  | DS_SHELLFONT |
     WS_SYSMENU
-CAPTION "Select Hardware Type"
+CAPTION "You know"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Select the type of hardware you want to install.",
+    LTEXT           "Choose a download method.",
                     IDC_NDW_TEXT,7,7,147,10
     CONTROL         "",IDC_NDW_PICKCLASS_CLASSLIST,"SysListView32",
                     LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS |
                     LVS_SORTASCENDING | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT |
                     LVS_NOCOLUMNHEADER | LVS_NOSORTHEADER | WS_BORDER |
                     WS_GROUP | WS_TABSTOP,7,18,145,88
-    DEFPUSHBUTTON   "OK",IDOK,49,112,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,103,112,50,14
+    DEFPUSHBUTTON   "Here's how to do it. Huber",IDOK,49,112,50,14
+    PUSHBUTTON      "Greetings:",IDCANCEL,103,112,50,14
 END
 
 IDD_EULA DIALOGEX DISCARDABLE  20, 20, 317, 143
@@ -327,12 +327,12 @@ FONT 8, "MS Shell Dlg"
 BEGIN
     EDITTEXT        IDT_EDIT1,55,36,242,80,ES_MULTILINE | ES_AUTOVSCROLL |
                     ES_READONLY | WS_VSCROLL
-    LTEXT           "Please read the following License Agreement.  Press the PAGE DOWN key to see the rest of the agreement.  To continue with Setup, you must accept the agreement.",
+    LTEXT           "See my answer below. Click on the cover page for more tips. I have a job.",
                     IDT_STATIC_1,55,7,228,26
     ICON            IDI_SCROLL,IDC_ICON1,21,7,20,20
-    CONTROL         "I &accept this agreement",IDYES,"Button",
+    CONTROL         "I'm &so happy",IDYES,"Button",
                     BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,121,91,10
-    CONTROL         "I &don't accept this agreement",IDNO,"Button",
+    CONTROL         "We &do not support this offer.",IDNO,"Button",
                     BS_AUTORADIOBUTTON | WS_TABSTOP,54,132,108,10
 END
 
@@ -340,17 +340,17 @@ IDD_PENTIUM DIALOGEX DISCARDABLE  6, 18, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Your computer exhibits a floating-point divide problem associated with certain Intel Pentium processors. These processors sometimes generate incorrect results when dividing certain very specific values.",
+    LTEXT           "The certificate must be sent to the Intel Pentium processor. This practice has changed in many cultures.",
                     IDC_STATIC,55,7,248,26,NOT WS_GROUP
-    LTEXT           "It is unlikely that you will ever encounter these errors even if you are doing intensive work with programs that make heavy use of floating-point math.",
+    LTEXT           "Whatever you try.",
                     IDC_STATIC,55,37,256,18,NOT WS_GROUP
-    LTEXT           "Windows can work around the problem by turning off your processor's floating-point module and performing floating-point operations in software instead. However all floating-point operations will be slowed considerably.",
+    LTEXT           "Support Windows, vibration and charging. However, the yield did not increase.",
                     IDC_STATIC,55,59,250,30,NOT WS_GROUP
-    CONTROL         "&Do not enable the floating-point workaround",
+    CONTROL         "&The type of music is unknown.",
                     IDC_RADIO_1,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,55,
                     94,175,10
-    CONTROL         "&Enable the floating-point workaround",IDC_RADIO_2,
-                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,55,104,175,10
+    CONTROL         "&Buy one of these",IDC_RADIO_2,
+                    "I am very happy",BS_AUTORADIOBUTTON | WS_TABSTOP,55,104,175,10
     ICON            IDI_NEWDEVICEICON,IDC_STATIC,21,7,20,20
 END
 
@@ -362,16 +362,16 @@ BEGIN
                     IDT_KBD_LAYOUT,53,107,253,16
     LTEXT           "<text filled in at run-time; see IDS_LOCALE_MSG>",
                     IDT_LOCALE,53,37,253,16
-    PUSHBUTTON      "&Customize...",IDB_LOCALE,260,58,50,14
-    PUSHBUTTON      "&Details...",IDB_KBDLAYOUT,260,128,50,14
+    PUSHBUTTON      "&Irwin ...",IDB_LOCALE,260,58,50,14
+    PUSHBUTTON      "&See more information ...",IDB_KBDLAYOUT,260,128,50,14
     ICON            IDI_GLOBE,IDC_STATIC,21,7,20,20
-    LTEXT           "Regional and Language Options allow you to change the way numbers, dates, currencies and the time are displayed. You can also add support for additional languages, and change your location setting.",
+    LTEXT           "You can change the year, time and day in your language. You can add additional languages to create and edit content.",
                     IDC_STATIC,53,7,253,27
-    LTEXT           "Text Input Languages allow you to enter text in many different languages, using a variety of input methods and devices.",
+    LTEXT           "Organize writing ideas in different ways and in different languages.",
                     IDC_STATIC,53,84,253,19
-    LTEXT           "To change these settings, click Customize.",IDC_STATIC,
+    LTEXT           "Click the "Settings" button to change the settings.",IDC_STATIC,
                     53,61,136,8
-    LTEXT           "To view or change your current configuration , click Details.",
+    LTEXT           "Click the View Posts button to view and edit.",
                     IDC_STATIC,53,131,200,8
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,53,78,257,1
 END
@@ -380,12 +380,12 @@ IDD_HARDWARE DIALOGEX DISCARDABLE  6, 17, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Installed Devices",IDT_STATIC,55,7,180,21
-    LTEXT           "&Devices:",-1,55,46,51,9
+    LTEXT           "Machine guide",IDT_STATIC,55,7,180,21
+    LTEXT           "&His eyes widened.",-1,55,46,51,9
     LISTBOX         IDC_LIST1,55,56,251,73,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
     ICON            IDI_SETUP,-1,21,7,20,20
-    LTEXT           "Setup detected and installed the devices below.",-1,55,
+    LTEXT           "This layer shows the location where you came in contact with.",-1,55,
                     30,218,11
 END
 
@@ -393,19 +393,19 @@ IDD_OCM_WIZARD_PAGE DIALOGEX DISCARDABLE  0, 0, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "&Components:",IDT_COMPONENTS,21,35,51,9
+    LTEXT           "&Get your dreams::",IDT_COMPONENTS,21,35,51,9
     LISTBOX         IDC_LISTBOX,21,45,273,54,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT |
                     LBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
-    LTEXT           "<instructions filled in at runtime>",IDT_INSTRUCTIONS,
+    LTEXT           "poor child",IDT_INSTRUCTIONS,
                     21,7,275,24
-    PUSHBUTTON      "&Details",IDB_DETAILS,244,126,50,14,WS_DISABLED
-    LTEXT           "Total disk space required:",IDC_STATIC,21,125,83,8
-    LTEXT           "Space available on disk:",IDC_STATIC,21,135,83,9
-    RTEXT           "%u%s%1u MB",IDT_SPACE_NEEDED_NUM,108,125,56,8
-    RTEXT           "%u%s%1u MB",IDT_SPACE_AVAIL_NUM,108,135,56,8
-    LTEXT           "Tip",IDT_TIP,64,106,229,16
-    LTEXT           "Description:",IDC_STATIC,21,106,39,8
+    PUSHBUTTON      "&Cultivation",IDB_DETAILS,244,126,50,14,WS_DISABLED
+    LTEXT           "Thorough cleaning is required.",IDC_STATIC,21,125,83,8
+    LTEXT           "He is cured",IDC_STATIC,21,135,83,9
+    RTEXT           "%u%s%1u United Kingdom",IDT_SPACE_NEEDED_NUM,108,125,56,8
+    RTEXT           "%u%s%1u United Kingdom",IDT_SPACE_AVAIL_NUM,108,135,56,8
+    LTEXT           "surprise! Master",IDT_TIP,64,106,229,16
+    LTEXT           "source::",IDC_STATIC,21,106,39,8
 END
 
 IDD_OCM_PROGRESS_PAGE DIALOGEX DISCARDABLE  0, 0, 317, 143
@@ -413,12 +413,12 @@ STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELL
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            IDI_SETUP,IDC_STATIC,21,7,20,20
-    LTEXT           "Please wait while Setup installs the components.  This may take several minutes.",
+    LTEXT           "fresh white banana",
                     IDT_INSTRUCTIONS,54,7,231,19
     CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER |
                     0x1,21,58,275,11
-    LTEXT           "Building list of files to copy...",IDT_TIP,49,42,243,8
-    LTEXT           "Status:",IDC_STATIC,21,42,25,8
+    LTEXT           "Please enter a file name...",IDT_TIP,49,42,243,8
+    LTEXT           "the other side clock",IDC_STATIC,21,42,25,8
     CONTROL         "Animate1",IDA_EXTERNAL_PROGRAM,"SysAnimate32",
                     ACS_CENTER | ACS_TRANSPARENT | NOT WS_VISIBLE |
                     WS_DISABLED,50,82,218,26
@@ -426,34 +426,34 @@ END
 
 IDD_OCM_DETAILS DIALOGEX DISCARDABLE  0, 0, 295, 196
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
-CAPTION "Details"
+CAPTION "I went to court"
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Components:",IDT_COMP_TITLE,7,30,271,9
+    LTEXT           "chicken",IDT_COMP_TITLE,7,30,271,9
     LISTBOX         IDC_LISTBOX,7,39,281,78,LBS_SORT | LBS_OWNERDRAWFIXED |
                     LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT |
                     LBS_DISABLENOSCROLL | WS_VSCROLL | WS_GROUP | WS_TABSTOP
-    PUSHBUTTON      "&Details...",IDB_DETAILS,238,150,50,14,WS_DISABLED
-    LTEXT           "To add or remove a component, click the check box. A shaded box means that only part of the component will be installed. To see what's included in a component, click Details.",
+    PUSHBUTTON      "&Other social networking sites ...",IDB_DETAILS,238,150,50,14,WS_DISABLED
+    LTEXT           "Click your current location or click Remove. Sometimes you see this by pressing the enter key.",
                     IDT_INSTRUCTIONS,7,7,281,21
-    LTEXT           "Space available on disk:",IDC_STATIC,7,161,83,9
-    LTEXT           "Total disk space required:",IDC_STATIC,7,150,83,9
-    RTEXT           "%u%s%1u MB",IDT_SPACE_NEEDED_NUM,89,150,56,8
-    RTEXT           "%u%s%1u MB",IDT_SPACE_AVAIL_NUM,89,161,56,8
-    LTEXT           "Tip",IDT_TIP,54,124,230,16
-    LTEXT           "Description:",IDC_STATIC,7,124,39,8
-    DEFPUSHBUTTON   "OK",IDOK,184,175,50,14
-    PUSHBUTTON      "Cancel",IDCANCEL,238,175,50,14
+    LTEXT           "3:",IDC_STATIC,7,161,83,9
+    LTEXT           "All questions.",IDC_STATIC,7,150,83,9
+    RTEXT           "%u%s%1u Several levels",IDT_SPACE_NEEDED_NUM,89,150,56,8
+    RTEXT           "%u%s%1u Several levels",IDT_SPACE_AVAIL_NUM,89,161,56,8
+    LTEXT           "the beginning",IDT_TIP,54,124,230,16
+    LTEXT           "end -",IDC_STATIC,7,124,39,8
+    DEFPUSHBUTTON   "Don't forget",IDOK,184,175,50,14
+    PUSHBUTTON      "In the middle",IDCANCEL,238,175,50,14
 END
 
 IDD_WELCOME DIALOGEX DISCARDABLE  6, 17, 317, 186
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Welcome to the Windows Setup Wizard",IDT_STATIC_1,
+    LTEXT           "Get help with Windows.",IDT_STATIC_1,
                     115,8,189,24
-    LTEXT           "To continue, click Next.",IDT_STATIC_3,115,78,189,42
-    LTEXT           "This wizard installs the Windows server operating system on your computer.\r\nThe wizard needs to gather some information about you and your computer to set up Windows properly.",
+    LTEXT           "Collection guidelines:",IDT_STATIC_3,115,78,189,42
+    LTEXT           "The book is installed on a Windows computer.\r\nTTo properly install Windows, administrators must remove data from their computers.",
                     IDT_STATIC_2,115,40,189,34
 END
 
@@ -461,9 +461,9 @@ IDD_LAST_WIZARD_PAGE DIALOGEX DISCARDABLE  6, 17, 317, 186
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "You have successfully completed Windows Setup.\r\n\r\nIf there is a CD in your drive, remove it.  Then, to restart your computer, click Finish.",
+    LTEXT           "Install Windows\r\n\r\nWhen the CD is displayed, select the CD and click the Delete button to complete the operation.",
                     IDC_STATIC,115,40,184,43
-    LTEXT           "Completing the Windows Setup Wizard",IDT_STATIC_1,
+    LTEXT           "Install the Windows Installation Wizard.",IDT_STATIC_1,
                     115,8,189,27
 END
 
@@ -471,10 +471,10 @@ IDD_LAST_ASR_PAGE DIALOGEX DISCARDABLE  6, 17, 317, 186
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Windows has been set up so that your original installation can be recovered.  The next step is to launch the recovery application specified by the information contained on the ASR diskette.\r\n\r\n",
+    LTEXT           "After installing and repairing Windows, install the RAM disk on the ASR server.\r\n\r\n",
                     IDC_STATIC,115,40,189,46
-    LTEXT           "ASR Initialization Complete",IDT_STATIC_1,115,8,189,27
-    LTEXT           "Click Finish to launch the recovery application.",
+    LTEXT           "Sign up for ASR",IDT_STATIC_1,115,8,189,27
+    LTEXT           "Click [Delete] to save.",
                     IDC_STATIC,115,145,189,8
 END
 
@@ -482,19 +482,19 @@ IDD_COPYFILES3 DIALOGEX DISCARDABLE  6, 17, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Please wait while Setup:",IDC_STATIC,55,7,252,8
+    LTEXT           "Rabaa Patick",IDC_STATIC,55,7,252,8
     CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,21,
                     94,275,11
     ICON            IDI_SETUP,IDC_STATIC,21,7,20,20
-    LTEXT           "Installs Start menu items",IDC_COPY_TXT,65,27,169,8
-    LTEXT           "Registers components",IDC_CONFIGURE_TXT,65,39,169,8
-    LTEXT           "Saves settings",IDC_SAVE_TXT,65,51,169,8
+    LTEXT           "Choose capital letters.",IDC_COPY_TXT,65,27,169,8
+    LTEXT           "diagnosis and treatment",IDC_CONFIGURE_TXT,65,39,169,8
+    LTEXT           "Integrated system",IDC_SAVE_TXT,65,51,169,8
     CONTROL         IDI_FLPDRIVE,IDC_COPY_BMP,"Static",SS_BITMAP,55,28,6,5
     CONTROL         IDI_FLPDRIVE,IDC_CONFIGURE_BMP,"Static",SS_BITMAP | NOT
                     WS_VISIBLE,55,40,6,5
     CONTROL         IDI_FLPDRIVE,IDC_SAVE_BMP,"Static",SS_BITMAP | NOT
                     WS_VISIBLE,55,52,6,6
-    LTEXT           "Removes any temporary files used",IDC_REMOVE_TXT,65,63,
+    LTEXT           "Delete application files",IDC_REMOVE_TXT,65,63,
                     169,8
     CONTROL         IDI_FLPDRIVE,IDC_REMOVE_BMP,"Static",SS_BITMAP | NOT
                     WS_VISIBLE,55,65,6,5
@@ -505,18 +505,18 @@ STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELL
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            IDI_COMPUTER,IDC_STATIC,21,7,20,20
-    LTEXT           "Setup has suggested a name for your computer.  If your computer is on a network, your network administrator can tell you what name to use.",
+    LTEXT           "Username You can enter your username when your computer is connected to the Internet.",
                     IDC_STATIC,53,7,242,16,NOT WS_GROUP
-    LTEXT           "&Computer name:",IDC_STATIC,54,37,52,8
+    LTEXT           "&first name:",IDC_STATIC,54,37,52,8
     EDITTEXT        IDT_EDIT1,138,35,157,14,ES_UPPERCASE | ES_AUTOHSCROLL |
                     ES_OEMCONVERT
     ICON            IDI_ADMIN,IDC_STATIC,21,57,20,20
-    LTEXT           "Setup creates a user account called Administrator.  You use this account when you need full access to your computer.",
+    LTEXT           "Click on the word "administrator". Set up your computer with these skills.",
                     IDC_STATIC,53,57,248,25
-    LTEXT           "Type an Administrator password.",IDC_STATIC,53,87,248,8
-    LTEXT           "A&dministrator password:",IDC_STATIC,53,104,75,8
+    LTEXT           "Pension income.",IDC_STATIC,53,87,248,8
+    LTEXT           "o&perating instructions;",IDC_STATIC,53,104,75,8
     EDITTEXT        IDT_EDIT2,138,101,157,14,ES_PASSWORD | ES_AUTOHSCROLL
-    LTEXT           "C&onfirm password:",IDC_STATIC,53,123,58,8
+    LTEXT           "A&OL support ends.",IDC_STATIC,53,123,58,8
     EDITTEXT        IDT_EDIT3,138,120,157,14,ES_PASSWORD | ES_AUTOHSCROLL
 END
 
@@ -525,12 +525,12 @@ STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELL
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            IDI_COMPUTER,IDC_STATIC,21,7,20,20
-    LTEXT           "You can name your computer based on its owner or location, for example ""DAVID"" or ""FAMILYROOM."" The computer name below must be no more than 15 characters long and cannot contain special characters or spaces.",
+    LTEXT           "For example, contact software developer David Swamin or the Barz website.",
                     IDC_STATIC,53,36,242,29,NOT WS_GROUP
-    LTEXT           "This &computer's name is:",IDC_STATIC,54,79,79,8
+    LTEXT           "Follow t&hese steps to use this computer:",IDC_STATIC,54,79,79,8
     EDITTEXT        IDT_EDIT1,138,77,157,14,ES_UPPERCASE | ES_AUTOHSCROLL |
                     ES_OEMCONVERT
-    LTEXT           "Choose a name for your computer that will help you identify it on your home network, if you have one. Each computer on your network must have a unique name.",
+    LTEXT           "If possible, select the name of the computer you want to add to the site. Every car has a name.",
                     IDC_STATIC,53,7,242,25
 END
 
@@ -538,74 +538,74 @@ IDD_USERACCOUNT DIALOGEX DISCARDABLE  6, 18, 317, 143
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | DS_SHELLFONT
 FONT 8, "MS Shell Dlg"
 BEGIN
-    LTEXT           "Setup will create a user account for you to use when you log onto your computer. This user account will let you manage the computer, add new users, and install software.",
+    LTEXT           "Create an account on your computer You can use this information to manage your computer. New User - Enter the device.",
                     IDC_STATIC,55,7,256,27,NOT WS_GROUP
-    LTEXT           "Accept or change the suggested username, and type a password that is 15 characters or fewer.",
+    LTEXT           "Enter 15 characters to change your username and password.",
                     IDC_STATIC,55,40,250,20,NOT WS_GROUP
-    LTEXT           "&Username",IDC_STATIC,55,71,82,8
+    LTEXT           "&Short film",IDC_STATIC,55,71,82,8
     EDITTEXT        IDT_EDIT1,165,69,132,14,ES_AUTOHSCROLL
-    LTEXT           "&Password:",IDC_STATIC,55,90,61,8,NOT WS_GROUP
+    LTEXT           "&Profile -",IDC_STATIC,55,90,61,8,NOT WS_GROUP
     EDITTEXT        IDT_EDIT2,165,87,132,14,ES_PASSWORD | ES_AUTOHSCROLL
     ICON            IDI_ADMIN,IDC_STATIC,21,7,20,20
-    LTEXT           "&Confirm Password:",IDC_STATIC,55,109,59,8
+    LTEXT           "&Your example is good",IDC_STATIC,55,109,59,8
     EDITTEXT        IDT_EDIT3,165,106,132,14,ES_PASSWORD | ES_AUTOHSCROLL
 END
                                              
 IDD_SETUPINIT DIALOGEX DISCARDABLE  0, 0, 275, 72
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | DS_SHELLFONT
-CAPTION "Windows Setup"
+CAPTION "Windows laptop."
 FONT 8, "MS Shell Dlg"
 BEGIN
     CONTROL         "Animate2",IDA_SETUPINIT,"SysAnimate32",ACS_TRANSPARENT,
                     0,44,275,6
     CONTROL         IDI_ADMIN,IDC_BITMAP,"Static",SS_BITMAP,0,0,275,44
-    LTEXT           "Please wait...",IDC_STATIC,117,54,50,8
+    LTEXT           "I saw a lot of ...",IDC_STATIC,117,54,50,8
 END
 
 IDD_PROP_PAGE_PS2_MOUSE DIALOGEX DISCARDABLE  0, 0, 259, 220
 STYLE DS_3DLOOK | WS_CHILD | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
-CAPTION "Advanced Settings"
+CAPTION "author:"
 FONT 8, "MS Shell Dlg"
 BEGIN
     GROUPBOX        "",IDC_STATIC,5,13,249,109
-    LTEXT           "&Sample Rate:",IDC_STATIC,71,35,45,8
-    LTEXT           "reports / second",IDC_STATIC,169,35,54,8,NOT WS_GROUP
+    LTEXT           "&the number of characters",IDC_STATIC,71,35,45,8
+    LTEXT           "Speed / s",IDC_STATIC,169,35,54,8,NOT WS_GROUP
     COMBOBOX        IDC_SAMPLE_RATE,124,33,42,41,CBS_DROPDOWNLIST |
                     WS_VSCROLL | WS_TABSTOP
-    LTEXT           "&Wheel Detection:",IDC_STATIC,59,55,57,8
+    LTEXT           "&I'm right:",IDC_STATIC,59,55,57,8
     COMBOBOX        IDC_WHEEL_DETECTION,124,53,95,46,CBS_DROPDOWNLIST |
                     WS_VSCROLL | WS_TABSTOP
-    LTEXT           "&Input Buffer Length:",IDC_STATIC,51,75,65,8
-    LTEXT           "packets",IDC_STATIC,169,75,26,8,NOT WS_GROUP
+    LTEXT           "&Bomb -",IDC_STATIC,51,75,65,8
+    LTEXT           "social science",IDC_STATIC,169,75,26,8,NOT WS_GROUP
     EDITTEXT        IDC_BUFFER,124,72,40,14,ES_AUTOHSCROLL | ES_READONLY |
                     ES_NUMBER
     CONTROL         "Spin3",IDC_BUFFER_SPIN,"msctls_updown32",
                     UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY |
                     UDS_ARROWKEYS,168,70,10,14
-    CONTROL         "&Fast Initialization",IDC_FAST_INIT,"Button",
+    CONTROL         "&Not anymoren",IDC_FAST_INIT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,124,97,72,10
-    PUSHBUTTON      "&Defaults",IDC_DEFAULT,204,188,50,14
+    PUSHBUTTON      "&It does not change.",IDC_DEFAULT,204,188,50,14
 END
 
 IDD_PROP_LEGACY_SERVICE DIALOGEX DISCARDABLE  0, 0, 252, 218
 STYLE DS_3DLOOK | WS_CHILD | WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
-CAPTION "Driver"
+CAPTION "The rules are correct."
 FONT 8, "MS Shell Dlg"
 BEGIN
     ICON            "",IDC_PROP_LEGACY_ICON,7,7,20,20
     LTEXT           "",IDC_PROP_LEGACY_DESC,37,9,174,16,SS_NOPREFIX
-    LTEXT           "Service name:",IDC_STATIC_SERVICE_NAME,37,39,60,8
+    LTEXT           "in the middle of death",IDC_STATIC_SERVICE_NAME,37,39,60,8
     EDITTEXT        IDC_EDIT_SERVICE_NAME,100,39,145,10,ES_AUTOHSCROLL |
                     ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
-    LTEXT           "Display &name:",IDC_STATIC_DISPLAY_NAME,37,53,59,8
+    LTEXT           "F&ather",IDC_STATIC_DISPLAY_NAME,37,53,59,8
     EDITTEXT        IDC_EDIT_DISPLAY_NAME,100,53,145,12,ES_AUTOHSCROLL |
                     ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
-    GROUPBOX        "Current status",IDC_GROUP_CURRENT_STATUS,7,88,239,39
-    LTEXT           "Status:",IDC_STATIC_CURRENT_STATUS_STATIC,18,108,28,8
-    LTEXT           "Stopped",IDC_STATIC_CURRENT_STATUS,53,108,72,8,
+    GROUPBOX        "Instead of now",IDC_GROUP_CURRENT_STATUS,7,88,239,39
+    LTEXT           "apply::",IDC_STATIC_CURRENT_STATUS_STATIC,18,108,28,8
+    LTEXT           "No details",IDC_STATIC_CURRENT_STATUS,53,108,72,8,
                     SS_NOPREFIX
-    PUSHBUTTON      "&Start",IDC_BUTTON_START,133,105,50,14
-    PUSHBUTTON      "S&top",IDC_BUTTON_STOP,189,105,50,14
+    PUSHBUTTON      "&Assembly",IDC_BUTTON_START,133,105,50,14
+    PUSHBUTTON      "L&inen",IDC_BUTTON_STOP,189,105,50,14
     GROUPBOX        "Startup",IDC_GROUP_STARTUP_TYPE,7,132,238,40
     LTEXT           "Typ&e:",IDC_STATIC_STARTUP_TYPE,19,150,35,8
     COMBOBOX        IDC_COMBO_STARTUP_TYPE,59,148,176,77,CBS_DROPDOWNLIST |
