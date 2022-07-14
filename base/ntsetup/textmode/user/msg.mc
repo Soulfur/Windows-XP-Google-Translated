@@ -3583,12 +3583,12 @@ Create partition of size (in MB):%0
 
 MessageId=12008 SymbolicName=SP_TEXT_SETUP_IS_FORMATTING
 Language=English
-Setup is formatting...%0
+Monthly ...%0
 .
 
 MessageId=12009 SymbolicName=SP_TEXT_SETUP_IS_REMOVING_FILES
 Language=English
-Setup is deleting files...%0
+Old bronze wall ...%0
 .
 
 MessageId=12010 SymbolicName=SP_TEXT_HARD_DISK_NO_MEDIA
@@ -3598,27 +3598,27 @@ Language=English
 
 MessageId=12011 SymbolicName=SP_TEXT_FAT_FORMAT
 Language=English
-Format the partition using the FAT file system%0
+Oil match and draw%0
 .
 
 MessageId=12012 SymbolicName=SP_TEXT_NTFS_FORMAT
 Language=English
-Format the partition using the NTFS file system%0
+Find NTFS objects and files.%0
 .
 
 MessageId=12013 SymbolicName=SP_TEXT_NTFS_CONVERT
 Language=English
-Convert the partition to NTFS%0
+Contact NTFS for assistance.%0
 .
 
 MessageId=12014 SymbolicName=SP_TEXT_DO_NOTHING
 Language=English
-Leave the current file system intact (no changes)%0
+Do not modify existing files.%0
 .
 
 MessageId=12015 SymbolicName=SP_TEXT_REMOVE_NO_FILES
 Language=English
-Do not delete any files%0
+Ignore the comments%0
 .
 
 MessageId=12016 SymbolicName=SP_TEXT_ANGLED_NONE
