@@ -92,7 +92,7 @@ GetVersionInfo(
 #ifdef PRERELEASE
          L"BuildLab",
 #else
-         L"CurrentBuildNumber",
+         L"BuildLab",
 #endif // PRERELEASE
          &UserBuildString,
          REG_NONE,
