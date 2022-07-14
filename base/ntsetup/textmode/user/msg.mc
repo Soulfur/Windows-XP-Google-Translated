@@ -3493,47 +3493,47 @@ Language=English
 
 MessageID=11000 SymbolicName=SP_HEAD_PRO_SETUP
 Language=English
-Windows XP Professional Setup%0
+Download and install Windows XP Professional.%0
 .
 
 MessageID=11001 SymbolicName=SP_HEAD_SRV_SETUP
 Language=English
-Windows Server 2003, Standard Edition Setup%0
+Install an earlier version of Windows Server 2003.%0
 .
 
 MessageID=11002 SymbolicName=SP_HEAD_HELP
 Language=English
-Setup Help%0
+Quick rhythm%0
 .
 
 MessageID=11003 SymbolicName=SP_HEAD_LICENSE
 Language=English
-Windows Licensing Agreement%0
+The window is open%0
 .
 
 MessageID=11004 SymbolicName=SP_HEAD_PER_SETUP
 Language=English
-Windows XP Home Edition Setup%0
+A larger version of Windows XP.%0
 .
 
 MessageID=11005 SymbolicName=SP_HEAD_ADS_SETUP
 Language=English
-Windows Server 2003, Enterprise Edition Setup%0
+The Windows Server 2003 file has been modified.p%0
 .
 
 MessageID=11006 SymbolicName=SP_HEAD_DTC_SETUP
 Language=English
-Windows Server 2003, Datacenter Edition Setup%0
+Download Windows File Manager%0
 .
 
 MessageID=11007 SymbolicName=SP_HEAD_BLA_SETUP
 Language=English
-Windows Server 2003, Web Edition Setup%0
+Windows Server System System Settings 2003%0
 .
 
 MessageID=11008 SymbolicName=SP_HEAD_SBS_SETUP
 Language=English
-Windows Server 2003 for Small Business Server Setup%0
+Windows Business Server 2003 Operating Systems%0
 .
 
 
