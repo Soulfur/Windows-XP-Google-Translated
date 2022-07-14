@@ -236,7 +236,7 @@ BEGIN
     PUSHBUTTON      "They are confused.",IDCANCEL,259,172,50,14
     GROUPBOX        "I understand",-1,181,44,127,94
     LTEXT           "",IDT_STATIC_3,188,55,112,48,SS_NOPREFIX
-    LTEXT           "Click "Size" in the "Colors" section. The wall of the house. Click the button to see the result.",
+    LTEXT           "Click Size in the Colors section. The wall of the house. Click the button to see the result.",
                     -1,7,8,288,23
     LTEXT           "Harakat",-1,7,144,83,9
     LTEXT           "Leaving the ground",-1,7,154,83,9
@@ -369,7 +369,7 @@ BEGIN
                     IDC_STATIC,53,7,253,27
     LTEXT           "Organize writing ideas in different ways and in different languages.",
                     IDC_STATIC,53,84,253,19
-    LTEXT           "Click the "Settings" button to change the settings.",IDC_STATIC,
+    LTEXT           "Click the Settings button to change the settings.",IDC_STATIC,
                     53,61,136,8
     LTEXT           "Click the View Posts button to view and edit.",
                     IDC_STATIC,53,131,200,8
@@ -511,7 +511,7 @@ BEGIN
     EDITTEXT        IDT_EDIT1,138,35,157,14,ES_UPPERCASE | ES_AUTOHSCROLL |
                     ES_OEMCONVERT
     ICON            IDI_ADMIN,IDC_STATIC,21,57,20,20
-    LTEXT           "Click on the word "administrator". Set up your computer with these skills.",
+    LTEXT           "Click on the word administrator. Set up your computer with these skills.",
                     IDC_STATIC,53,57,248,25
     LTEXT           "Pension income.",IDC_STATIC,53,87,248,8
     LTEXT           "o&perating instructions;",IDC_STATIC,53,104,75,8
