@@ -40,17 +40,17 @@ Language=English
 
 MessageID=9001 SymbolicName=SP_SCRN_WELCOME
 Language=English
-%%IWelcome to Setup.
+%%IWelcome to this month
 
-This portion of the Setup program prepares Microsoft(R)
-Windows(R) to run on your computer.
+Microsoft (R) provides many software solutions.
+The computer must be running Windows (R).
 
 
-     To set up Windows now, press ENTER.
+     Click on Instagram to install Windows.
 
-     To repair or recover a Windows installation, press R.
+     Press R to minimize or maximize the window.
 
-     To quit Setup without installing Windows, press F3.
+     Press F3 to exit the Windows settings.
 
 
 
