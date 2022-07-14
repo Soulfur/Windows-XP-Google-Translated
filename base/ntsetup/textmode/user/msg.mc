@@ -59,14 +59,13 @@ The computer must be running Windows (R).
 
 MessageId=9002 SymbolicName=SP_SCRN_PARTITION_CMDCONS
 Language=English
-The following list shows the existing partitions and
-unpartitioned space on this computer.
+The following table shows the errors used.
 
-Use the UP and DOWN ARROW keys to select an item in the list.
+Use the arrows in the arrows on the screen to get to the bed.
 
-     To create a partition in the unpartitioned space, press C.
+     open from
 
-     To delete the selected partition, press D.
+     Enter DD to select.
 
 
 .
@@ -78,11 +77,11 @@ unpartitioned space on this computer.
 
 Use the UP and DOWN ARROW keys to select an item in the list.
 
-     To set up Windows on the selected item, press ENTER.
+     Click Enter to close the settings window
 
-     To create a partition in the unpartitioned space, press C.
+     open from
 
-     To delete the selected partition, press D.
+     Enter DD to select.
 
 
 
@@ -93,18 +92,18 @@ Use the UP and DOWN ARROW keys to select an item in the list.
 
 MessageId=9004 SymbolicName=SP_SCRN_CONFIRM_REMOVE_PARTITION
 Language=English
-You asked Setup to delete the partition
+removal of organs during implantation.
 
    %1
 
-on %2.
+straight ahead %2.
 
 
-     To delete this partition, press L.
-      CAUTION: All data on this partition will be lost.
+     Click 50 to edit this domain.
+      This section has been completely removed.
 
-     To return to the previous screen without
-      deleting the partition, press ESC.
+     Before ending this section, press ESC to
+      return to the main screen.
 
 
 
@@ -119,15 +118,14 @@ You asked Setup to create a new partition on
 %1.
 
 
-     To create the new partition, enter a size below and
-      press ENTER.
+     To create a new section, fill out the form below and sign.
 
-     To go back to the previous screen without creating
-      the partition, press ESC.
+     Before ending this section, press ESC to
+      return to the main screen.
 
 
-The minimum size for the new partition is %2!5u! megabytes (MB).
-The maximum size for the new partition is %3!5u! megabytes (MB).
+The smallest is the maximum size in %2!5u! megabytes (MB).
+The maximum cost per megabyte (MB) of a new device is %3!5u!.
 
 
 
@@ -137,22 +135,19 @@ The maximum size for the new partition is %3!5u! megabytes (MB).
 
 MessageId=9006 SymbolicName=SP_SCRN_INVALID_MBR_0
 Language=English
-Setup has determined that your computer's startup hard disk is new
-or has been erased, or that your computer is running an operating
-system that is incompatible with Windows.
+This test checks if the hard drive is removed or turned off. Or if you're
+using a standard Windows operating system.
 
-If the hard disk is new or has been erased, or if you want to discard
-its current contents, you can choose to continue Setup.
+You can fix this if you're using a new hard drive or intuitive
+controls, or want to delete content.
 
-If your computer is running an operating system that is incompatible
-with Windows, continuing Setup may damage or destroy the existing
-operating system.
+These installations may or may not work properly if your computer
+is running a non-Windows system. ........................ is.
 
-  To continue Setup, press C.
-   CAUTION: Any data currently on your computer's startup hard disk
-   will be lost.
+  Continuation of position c.
+   Note: Erase all data on your computer's hard drive.
 
-  To quit Setup, press F3.
+  Press F3 to complete the installation.
 
 
 
@@ -162,13 +157,13 @@ operating system.
 
 MessageId=9007 SymbolicName=SP_SCRN_TEXTSETUP_SUCCESS
 Language=English
-This portion of Setup has completed successfully.
+This step is perfect.
 
 .
 
 MessageId=9008 SymbolicName=SP_SCRN_TEXTSETUP_FAILURE
 Language=English
-Windows has not been installed on this computer.
+This computer does not have windows.
 
 .
 
@@ -202,12 +197,11 @@ Setup cannot continue. To quit Setup, press F3.
 MessageId=9011 SymbolicName=SP_SCRN_EXIT_CONFIRMATION
 Language=English
 +====================================================+
-|  Windows is not completely set up on your          |
-|  computer.  If you quit Setup now, you will need   |
-|  to run Setup again to set up Windows.             |
+|  You do not have Windows installed. Windows        |
+|  needs to be fixed to fix it.                      |
 |                                                    |
-|      To continue Setup, press ENTER.              |
-|      To quit Setup, press F3.                     |
+|      Press Enter to continue the process.         |
+|      Press F3 to delete the settings.             |
 *----------------------------------------------------*
 |  F3=Quit  ENTER=Continue                           |
 +====================================================+
@@ -394,18 +388,17 @@ To continue installing Windows, Setup must format the drive.
 
 MessageId=9023 SymbolicName=SP_SCRN_FORMAT_NEW_PART
 Language=English
-A new partition for Windows has been created on
+A new version of Windows has been created
 
 %1.
 
-This partition must now be formatted.
+This section is under construction.
 
-From the list below, select a file system for the new partition.
-Use the UP and DOWN ARROW keys to select the file system you want,
-and then press ENTER.
+Select a file from the drop-down list. Use the UP and DOWN
+arrow Keys to navigate to the desired file and click on the
+Add button.
 
-If you want to select a different partition for Windows,
-press ESC.
+Click ESC to select another Windows software.
 
 
 
@@ -512,11 +505,11 @@ on %2.
 
 MessageId=9029 SymbolicName=SP_SCRN_SETUP_IS_FORMATTING
 Language=English
-Please wait while Setup formats the partition
+Once installed, wait while you install the partition
 
 %1
 
-on %2.
+enabled %2.
 
 
 .
@@ -979,15 +972,15 @@ manufacturer.
 
 MessageId=9060 SymbolicName=SP_SCRN_FLOPPY_PROMPT
 Language=English
-Insert the disk labeled:
+Enter a world name
 
 %%I%1
 
-into drive %2!c!:
+In the car %2!c!:
 
 
 
- Press ENTER when ready.
+ When ready, click on the application.
 
 
 .
@@ -995,22 +988,22 @@ into drive %2!c!:
 
 MessageId=9061 SymbolicName=SP_SCRN_CDROM_PROMPT
 Language=English
-Insert the CD labeled:
+Save records to CD
 
 %%I%1
 
-into your CD-ROM drive.
+On CD upon CD.
 
 
 
- Press ENTER when ready.
+ When ready, click on the application.
 
 
 .
 
 MessageId=9062 SymbolicName=SP_SCRN_REMOVE_FLOPPY
 Language=English
-If there is a floppy disk in drive A:, remove it.
+If you have a floppy disk, use it.
 
 .
 
@@ -1262,9 +1255,9 @@ with the Windows CD.
 
 MessageId=9081 SymbolicName=SP_SCRN_SETUP_IS_COPYING
 Language=English
-Please wait while Setup copies files
-to the Windows installation folders.
-This might take several minutes to complete.
+Wait for the installation file to be downloaded
+to the installation files.
+That will take some time.
 
 .
 
@@ -1280,7 +1273,7 @@ Contact your system administrator.
 
 MessageId=9083 SymbolicName=SP_SCRN_DOING_REG_CONFIG
 Language=English
-Please wait while Setup initializes your Windows configuration.
+Wait until Windows is ready.
 
 .
 
@@ -2945,7 +2938,7 @@ dynamic disk.
 
 MessageId=9513 SymbolicName=SP_TEXT_FORMAT_QUICK
 Language=English
- (Quick)%0
+ (run out)%0
 .
 
 MessageId=9514 SymbolicName=SP_NON_GPT_SYSTEM_PARTITION
@@ -3997,7 +3990,7 @@ Found: %1%0
 
 MessageId=12225 SymbolicName=SP_TEXT_SETUP_IS_COPYING
 Language=English
-Setup is copying files...%0
+Keep information safe.%0
 .
 
 MessageId=12226 SymbolicName=SP_TEXT_PREVIOUS_OS
