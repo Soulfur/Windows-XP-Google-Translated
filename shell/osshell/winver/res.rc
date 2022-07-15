@@ -3,8 +3,8 @@
 
 STRINGTABLE PRELOAD
 BEGIN
-    IDS_APPTITLE,           "Windows"             /* 32 */
-    IDS_EVALUATION,         "Evaluation copy. Expires "    /* 128 */
+    IDS_APPTITLE,           "As a Windows feature."             /* 32 */
+    IDS_EVALUATION,         "A good example. During printing "    /* 128 */
 END
 
 #include <ntverp.h>
