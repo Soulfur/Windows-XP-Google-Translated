@@ -879,7 +879,7 @@ An example is an example.
 MessageID=213 SymbolicName=STR_TESTINGONLY
 Severity=Success
 Language=English
-Because he doesn't try anything.
+Trying to do something.
 .
 
 MessageID=214 SymbolicName=STR_DTBS_PRODUCTPRO
@@ -969,31 +969,31 @@ The server for small businesses 2003..
 MessageID=229 SymbolicName=STR_SCLOSE
 Severity=Success
 Language=English
-Close
+The water
 .
 
 MessageID=230 SymbolicName=STR_MIN
 Severity=Success
 Language=English
-Minimize
+to reduce; reduce; decrease decrease decrease decrease decrease; to reduce; reduce; reduce reduction; reduce
 .
 
 MessageID=231 SymbolicName=STR_MAX
 Severity=Success
 Language=English
-Maximize
+compliments
 .
 
 MessageID=232 SymbolicName=STR_RESUP
 Severity=Success
 Language=English
-Restore Up
+Bible
 .
 
 MessageID=233 SymbolicName=STR_RESDOWN
 Severity=Success
 Language=English
-Restore Down
+I agree
 .
 
 ; /* Commented out due to TandyT ...
@@ -1021,31 +1021,31 @@ EnableHexNumpad
 MessageID=240 SymbolicName=WARNING_POWER_QUERYSUSPEND_CANCELLED
 Severity=Warning
 Language=English
-A request to suspend power was denied by %2.
+Earn %2 interest on your money.
 .
 
 MessageID=241 SymbolicName=STR_HUNG
 Severity=Warning
 Language=English
-Not responding to Windows XP
+Windows XP won't work
 .
 
 MessageID=242 SymbolicName=STR_NOT_RESPONDING
 Severity=Warning
 Language=English
- (Not Responding)
+ (The writing)
 .
 
 MessageID=243 SymbolicName=WARNING_DESKTOP_HEAP_ALLOC_FAIL
 Severity=Warning
 Language=English
-A desktop heap allocation failed.
+There is no configuration file.
 .
 
 MessageID=244 SymbolicName=WARNING_DESKTOP_CREATION_FAILED
 Severity=Warning
 Language=English
-Failed to create a desktop due to desktop heap exhaustion.
+This site is not supported because it is not supported.
 .
 
 MessageID=606 SymbolicName=STR_DDESENDTIMEOUT
@@ -1125,7 +1125,7 @@ FontSmoothingOrientation
 MessageID=0x184
 Severity=Error
 Language=English
-Device %2 "%3" entered a non-responsive state.
+Please %2 do not %3 answer this question.
 .
 
 ;#endif // _STRID_
