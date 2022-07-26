@@ -828,31 +828,31 @@ ForegroundFlashCount
 MessageID=205 SymbolicName=STR_SAFEMODE
 Severity=Success
 Language=English
-Safe Mode
+But the floor
 .
 
 MessageID=206 SymbolicName=STR_SAFEMODE_TITLE1
 Severity=Success
 Language=English
-%wsMicrosoft (R) Windows (R) (Build %ws%0.0ws)  %ws
+%wsThere is no Microsoft. (R) A window will open. (R) (house %ws%0.0ws)  %ws
 .
 
 MessageID=207 SymbolicName=STR_SAFEMODE_TITLE2
 Severity=Success
 Language=English
-%wsMicrosoft (R) Windows (R) (Build %ws: %ws)  %ws
+%wsThere is no Microsoft. (R) A window will open. (R) (house %ws: %ws)  %ws
 .
 
 MessageID=208 SymbolicName=STR_SAFEMODE_TITLE3
 Severity=Success
 Language=English
-%wsMicrosoft (R) Windows (R) (Build %ws%0.0ws)
+%wsThere is no Microsoft. (R) A window will open. (R) (house %ws%0.0ws)
 .
 
 MessageID=209 SymbolicName=STR_SAFEMODE_TITLE4
 Severity=Success
 Language=English
-%wsMicrosoft (R) Windows (R) (Build %ws: %ws)
+%wsThere is no Microsoft. (R) A window will open. (R) (house %ws: %ws)
 .
 
 ;/*
@@ -861,13 +861,13 @@ Language=English
 MessageID=210 SymbolicName=STR_DTBS_PRODUCTID
 Severity=Success
 Language=English
-%wsWindows %ws
+%wsA window will open. %ws
 .
 
 MessageID=211 SymbolicName=STR_DTBS_PRODUCTBUILD
 Severity=Success
 Language=English
-%ws Build %ws
+%ws house %ws
 .
 
 MessageID=212 SymbolicName=STR_DTBS_EVALUATION
@@ -885,19 +885,19 @@ Trying to do something.
 MessageID=214 SymbolicName=STR_DTBS_PRODUCTPRO
 Severity=Success
 Language=English
-KSP Thank you
+KSP A little bit
 .
 
 MessageID=215 SymbolicName=STR_DTBS_PRODUCTPER
 Severity=Success
 Language=English
-KSP Get out of the house
+KSP help me now
 .
 
 MessageID=216 SymbolicName=STR_DTBS_PRODUCTSRV
 Severity=Success
 Language=English
-recorded in 2003, General permissions
+recorded in 2003, Account management
 .
 
 MessageID=217 SymbolicName=STR_DTBS_PRODUCTADV
@@ -909,13 +909,13 @@ recorded in 2003, Change type
 MessageID=218 SymbolicName=STR_DTBS_PRODUCTDTC
 Severity=Success
 Language=English
-recorded in 2003, Publication Center Information
+recorded in 2003, To see
 .
 
 MessageID=219 SymbolicName=STR_DTBS_PRODUCTWKS64
 Severity=Success
 Language=English
-KSP 64-bit format
+KSP He is 64 years old.
 .
 
 MessageID=220 SymbolicName=STR_EXTENDEDSOUNDS
@@ -933,13 +933,13 @@ Autorun
 MessageID=222 SymbolicName=STR_DTBS_PRODUCTEMB
 Severity=Success
 Language=English
-KSP Embedded
+KSP In addition, Dr.
 .
 
 MessageID=223 SymbolicName=STR_DTBS_PRODUCTBLA
 Severity=Success
 Language=English
-recorded in 2003, Account management
+recorded in 2003, Obligtion
 .
 
 MessageID=224 SymbolicName=STR_DTBS_PRODUCTSRV64
@@ -951,13 +951,13 @@ recorded in 2003, General permissions
 MessageID=225 SymbolicName=STR_DTBS_PRODUCTADV64
 Severity=Success
 Language=English
-recorded in 2003, Change type
+recorded in 2003, Account management
 .
 
 MessageID=226 SymbolicName=STR_DTBS_PRODUCTDTC64
 Severity=Success
 Language=English
-recorded in 2003, Publication Center Information
+recorded in 2003, To see
 .
 
 MessageID=227 SymbolicName=STR_DTBS_PRODUCTSBS
