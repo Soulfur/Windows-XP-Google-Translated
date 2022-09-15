@@ -21,9 +21,9 @@ function Agent_AddCommonCommands()
     if (g_bAgentShowSpecialISPCommands) 
     {
         
-		var L_AddCommonCommands2_Text = "Tell me &about Internet signup";
-		var L_AddCommonCommands3_Text = "&Re-start Internet signup";
-		var L_AddCommonCommands4_Text = "&Skip Internet signup";
+		var L_AddCommonCommands2_Text = "Report on the electronic progr&am.";
+		var L_AddCommonCommands3_Text = "Continue with your email &registration";
+		var L_AddCommonCommands4_Text = "Do not regi&ster online.";
 
 		try 
 		{
@@ -2347,7 +2347,7 @@ function Agent_IdentitiesCommand_WhatIsUserAccount()
 
 function Agent_IdentitiesCommand_Benefits() 
 {	
-	var L_IdentitiesBenefits1_Text = "Sharing a computer used to mean that other users could see your private files, install games or other software you didn’t want, or change your computer settings.";
+	var L_IdentitiesBenefits1_Text = "Sharing a computer used to mean that other users could see your private files, install games or other software you didnÂ’t want, or change your computer settings.";
 	Agent_Speak(L_IdentitiesBenefits1_Text);
 	
 	var L_IdentitiesBenefits2_Text = "Now that's all changed!";
